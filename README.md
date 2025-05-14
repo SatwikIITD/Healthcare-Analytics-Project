@@ -33,11 +33,12 @@ The goal of Model 2 is to **approximate the performance** of Model 1 while provi
 
 ## Repository Contents
 
-- `model1/`: Scripts and notebooks related to training and evaluating Model 1.
-- `model2/`: Code for training the ensemble predictor and implementing the confidence thresholding mechanism.
-- `data/`: Preprocessing scripts and example datasets (or links to public sources).
+- `model1.py`: Code for training the catboost model 
+- `model2.py`: Code for training the ensemble predictor and implementing the confidence thresholding mechanism.
+- `fetch_data.py`: Script to fetch the data from URLs.
+- `rm_random.py`: Randomly remove 10% of the datasets which may be used for later evaluation.
+- `gen_data.py` : Pre-process the dataset.
 - `results/`: Evaluation metrics, plots, and comparisons between models.
-- `paper/`: Drafts and final version of the accepted research paper.
 
 
 
