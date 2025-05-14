@@ -35,9 +35,10 @@ The goal of Model 2 is to **approximate the performance** of Model 1 while provi
 
 - `model1.py`: Code for training the catboost model 
 - `model2.py`: Code for training the ensemble predictor and implementing the confidence thresholding mechanism.
-- `fetch_data.py`: Script to fetch the dataset via API call.
+- `fetch_data.py`: Script to fetch the data from URLs.
+- `rm_random.py`: Randomly remove 10% of the datasets which may be used for later evaluation.
+- `gen_data.py` : Pre-process the dataset.
 - `results/`: Evaluation metrics, plots, and comparisons between models.
-- `paper/`: Drafts and final version of the accepted research paper.
 
 
 
